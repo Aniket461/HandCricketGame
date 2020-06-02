@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HandCricket</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+<!--     
+    <img src="./images/One.svg" alt="">
+    <img src="./images/Two.svg" alt=""> -->
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+   
+    <h1 class="modaltext"></h1>
+     <button class="close">READY</button>
+  </div>
+
+</div>
+
+
+    <section class="firstframe">
+
+        <h1 class="animated bounceInLeft slow">HAND CRICKET CHAMPIONSHIP</h1>
+
+        <img src="./images/trophy.png" alt="" class="animated fadeInDownBig delay-1s fast">
+
+        <button class="animated fadeInUp slow">Let's Play</button>
+
+
+    </section>
+
+
+    <section class="secondframe fadeOut">
+
+
+        <h1 class="tit">GET READY FOR THE TOSS!!</h1>
+        
+        <div class="toss">
+            <h2>Player</h2>
+           
+            <div class="img-container animated"> 
+            <!-- <img src="./images/tails4.png" alt="" class="tails-img"> -->
+            <img src="./images/heads.png" alt="" class="heads-img">
+            </div>
+            <h2>Computer</h2>
+        </div>
+
+        <div class="coins">
+            
+            <button class="head">Heads</button>
+            <button class="tail">Tails</button>
+        </div>
+
+
+  </section>
+
+<section class="toss-result fadeOut">
+
+    <h1 class="dis"></h1>
+    <h3 class="choice-q"></h3>
+    <div class="buttons">
+            
+            <button class="Bat">Batting</button>
+            <button class="Bowl">Bowling</button>
+        </div>
+        <button class="letplay fadeOut">START GAME</button>
+
+</section>
+
+<section class="thirdframe fadeOut">
+
+<h1>HAND CRICKET CHAMPIONSHIP</h1>
+<h3 class="tosswinner">Player won the toss and chose to Bat</h3>
+<div class="scores">
+    <div class="Pruns"><h1 class="PrunsH1">0</h1></div><h1>-</h1>
+    <div class="Pwickets"><h1 class="PwicketsH1">0</h1></div>
+    <div class="Cruns"><h1 class="CrunsH1">0</h1></div><h1>-</h1>
+    <div class="Cwickets"><h1 class="CwicketsH1">0</h1></div>
+</div>
+<div class="play-title">
+
+<h1 class="pa">Player</h1><h1>VS</h1><h1 class="co">COMPUTER</h1>
+
+</div>
+
+<div class="images">
+    <img src="./images/1.svg" alt="" class="player-hand">
+    <div class="com-box">
+        <h2 class="com1"></h2>
+        <h2 class="com2"></h2>
+    </div>
+    
+    <img src="./images/3.svg" alt="" class="computer-hand">
+    <!--  -->
+</div>
+<div class="run-but">
+    <button class="run-buttons one">1 Run</button>
+    <button class="run-buttons two">2 Runs</button>
+    <button class="run-buttons three">3 Runs</button>
+    <button class="run-buttons four">4 Runs</button>
+    <button class="run-buttons five">5 Runs</button>
+    <button class="run-buttons six">6 Runs</button>
+</div>
+</section>
+
+
+<section class="final fadeOut">
+
+
+        <h1 class="finalTit">PLAYER WINS THE MATCH</h1>
+        <img src="./images/trophy.png" alt="" width="200px" height="300px">
+        
+        <button class="home">PLAY AGAIN</button>
+
+  </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
